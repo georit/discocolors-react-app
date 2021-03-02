@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+.main-heading {
+  color: grey;
+  margin-bottom: 2rem;
+  padding-bottom: 4px;
+  position: relative;
+}
+
+.main-heading::after {
+  content: '';
+  height: 5px;
+  width: 15%;
+  background-color: #323232;
+  border-radius: 15px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.squares {
+  border: 10px solid #323232;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 920px;
+}
