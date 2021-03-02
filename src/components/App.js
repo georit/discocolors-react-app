@@ -13,6 +13,17 @@ export default class App extends Component {
     }
 
     this.state = { squares };
+
+    setInterval(() => {
+      const newSquares = [...this.state.squares];
+      let randomNumber = Math.floor(Math.random() * newSquares.length);
+      newSquares[randomNumber] = Object.assign({}, newSquares[randomNumber], {
+        id: randomNumber,
+        color: this.randomSquareColor(),
+      });
+
+      this.setState({ squares: newSquares });
+    }, 250);
   }
 
   randomSquareColor() {
