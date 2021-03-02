@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/discocolors-react-app/static/css/main.46ef64b4.chunk.css",
+    "main.js": "/discocolors-react-app/static/js/main.019b52b2.chunk.js",
+    "main.js.map": "/discocolors-react-app/static/js/main.019b52b2.chunk.js.map",
+    "runtime-main.js": "/discocolors-react-app/static/js/runtime-main.3825095d.js",
+    "runtime-main.js.map": "/discocolors-react-app/static/js/runtime-main.3825095d.js.map",
+    "static/js/2.c7a5052a.chunk.js": "/discocolors-react-app/static/js/2.c7a5052a.chunk.js",
+    "static/js/2.c7a5052a.chunk.js.map": "/discocolors-react-app/static/js/2.c7a5052a.chunk.js.map",
+    "index.html": "/discocolors-react-app/index.html",
+    "static/css/main.46ef64b4.chunk.css.map": "/discocolors-react-app/static/css/main.46ef64b4.chunk.css.map",
+    "static/js/2.c7a5052a.chunk.js.LICENSE.txt": "/discocolors-react-app/static/js/2.c7a5052a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3825095d.js",
+    "static/js/2.c7a5052a.chunk.js",
+    "static/css/main.46ef64b4.chunk.css",
+    "static/js/main.019b52b2.chunk.js"
+  ]
+}
